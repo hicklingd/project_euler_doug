@@ -5,7 +5,7 @@ def is_prime(number):
     if number in primes:
         return True
     else:
-        for c_num in range(2,number//2):
+        for c_num in range(2,int((number)**0.5)):
             if number%c_num==0:
                 return False
         primes.add(number)
