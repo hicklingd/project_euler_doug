@@ -38,5 +38,6 @@ for a in primes_t:
                 highest_n=n
                 highest_b=b
                 highest_a=a
-print(highest_a*highest_b)
+
+print(highest_b*highest_a)
 print(datetime.now()-start)
