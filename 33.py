@@ -25,7 +25,7 @@ for num in range(11,100):
                                 frac1= int(numerator_str[0])/int(denominator_str[1])
                             if frac_tt==frac1:
                                 l_f = l_f*frac_t
-print(l_f)
+print(l_f.denominator)
 
 
 
