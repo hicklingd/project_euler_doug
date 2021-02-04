@@ -12,8 +12,6 @@ def digits(n):
 		s += factorials[n%10]
 		n //= 10
 	return s
-
-
 for number5 in range(10,100000):
     total=0 
     total = digits(number5)
