@@ -1,4 +1,3 @@
-import operator
 from datetime import datetime
 start = datetime.now()
 #a^2+b^2=c^2
