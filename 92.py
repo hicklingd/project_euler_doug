@@ -1,4 +1,5 @@
 from datetime import datetime
+# could be quicker to change around the if and elif statements in the is_89 function 
 
 start = datetime.now()
 
